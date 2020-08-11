@@ -1,11 +1,29 @@
 .App {
   text-align: center;
+  
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+}
+Link {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: orangered;
 }
 .section {
   display: flex;
+  justify-content: center;
  
 }
 .forecast {
-  border: 1px solid black;
-  padding: 10px;
+  /* border: 1px solid black; */
+  padding: 20px;
+  
 }

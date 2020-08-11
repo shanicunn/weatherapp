@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const API_URL = "https://api.openweathermap.org/data/2.5/onecall?lat=33.7490000&lon=-84.3879800&&units=imperial&exclude=current,minutely&appid=";
 const API_KEY = "ff74cea309cf651b835e1f362b1a5897";
-let day = 6;
+
 
 class Friday extends React.Component {
     constructor(props) {

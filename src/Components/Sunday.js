@@ -37,13 +37,13 @@ class Sunday extends React.Component {
     }
     render() {
         return (
-            <div>
+            <div className="hourly">
                  {this.state.info.map(forecast => {
                     {/* console.log(forecast); */}
                     return (
                         <div className="forecast">
                         <h1>{this.militaryTime(forecast.dt)}</h1>
-                        <h1>{forecast.temp}</h1>
+                        <h1>{Math.round(forecast.temp)}°</h1>
                         <img src={`http://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png`} alt=""></img>
                         <h3>{forecast.weather[0].description}</h3>
                         </div>

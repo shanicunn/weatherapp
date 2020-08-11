@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  
+  width: 100vw;
 }
 ul {
   display: flex;
@@ -26,4 +26,13 @@ a {
   /* border: 1px solid black; */
   padding: 20px;
   
+}
+h2 {
+  font-size: 16px;
+}
+  
+
+.hourly {
+  display: flex;
+  flex-flow: wrap;
 }

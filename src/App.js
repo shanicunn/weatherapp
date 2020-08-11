@@ -6,13 +6,13 @@ import {
   Route,
   Link
 } from "react-router-dom";
-// import Monday from './Components/Monday';
-// import Tuesday from './Components/Tuesday';
-// import Wednesday from './Components/Wednesday';
-// import Thursday from './Components/Thursday';
+import Monday from './Components/Monday';
+import Tuesday from './Components/Tuesday';
+import Wednesday from './Components/Wednesday';
+import Thursday from './Components/Thursday';
 import Friday from './Components/Friday';
-// import Saturday from './Components/Saturday';
-// import Sunday from './Components/Sunday';
+import Saturday from './Components/Saturday';
+import Sunday from './Components/Sunday';
 import Home from './Components/Home';
 
 
@@ -21,32 +21,32 @@ function App() {
     <div className="App">
       <Router>
       <div>
-        <nav>
+        <nav className="nav">
           <ul>
             <li>
               <Link to="/">Home</Link>
             </li>
-            {/* <li>
+            <li>
               <Link to="/sunday">Sunday</Link>
-            </li> */}
-            {/* <li>
+            </li>
+            <li>
               <Link to="/monday">Monday</Link>
-            </li> */}
-            {/* <li>
+            </li>
+            <li>
               <Link to="/tuesday">Tuesday</Link>
-            </li> */}
-            {/* <li>
+            </li>
+            <li>
               <Link to="/wednesday">Wednesday</Link>
-            </li> */}
-            {/* <li>
+            </li>
+            <li>
               <Link to="/thursday">Thursday</Link>
-            </li> */}
+            </li>
             <li>
               <Link to="/friday">Friday</Link>
             </li>
-            {/* <li>
+            <li>
               <Link to="/saturday">Saturday</Link>
-            </li> */}
+            </li>
 
           </ul>
         </nav>
@@ -54,9 +54,9 @@ function App() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          {/* <Route path="/sunday">
+          <Route path="/sunday">
             <Sunday />
-          </Route> */}
+          </Route>
           {/* <Route path="/monday">
             <Monday />
           </Route> */}

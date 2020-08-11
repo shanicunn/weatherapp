@@ -49,7 +49,7 @@ class Home extends React.Component {
                             <h1>{dayOfWeek}</h1>
                             <img src={`http://openweathermap.org/img/wn/${forecast.weather[0].icon}@2x.png`} alt=""></img>
                             <h3>{forecast.weather[0].description}</h3>
-                            <h2>{forecast.temp.min} | {forecast.temp.max}</h2>
+                            <h2>{Math.round(forecast.temp.min)}° | {Math.round(forecast.temp.max)}°</h2>
                        </div>
                    )
                })}

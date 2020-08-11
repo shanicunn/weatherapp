@@ -2,7 +2,7 @@
 
 [OpenWeather Once Call API](https://openweathermap.org/api/one-call-api#data)
 
-[Live Weather App](https://elegant-brown-d4bb41)
+[Live Weather App](https://elegant-brown-d4bb41.netlify.app)
 
 # Things it does:
 * API information displaying
